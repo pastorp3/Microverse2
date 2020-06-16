@@ -1,18 +1,26 @@
 #img-div{
+    justify-content: center;
     top: -20px;
     left: 20px;
     position: relative;
     width: 400px;
     height: 300px;
+    display: flex;
+    align-items: center;
 
 }
 #image{
+    flex-shrink: 0;
+    display: block;
     margin: 10px 10px 10px 0px;
     float: center;
     display: block;
     position: absolute;
     left: 50%;
+    top: 50%;
     min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
 }
 #img-caption{
     position: absolute;
